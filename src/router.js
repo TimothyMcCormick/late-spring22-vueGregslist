@@ -21,6 +21,11 @@ const routes = [
     name: 'Houses',
     component: loadPage('HousesPage')
   },
+  {
+    path: '/jobs',
+    name: 'Jobs',
+    component: loadPage('JobsPage')
+  },
   // TODO you guys can do the jobs page
   {
     path: '/account',
